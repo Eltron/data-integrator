@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+    <div class="center">
+        Выберите файл:   
+    </div>
+    <div class="center">  
+        <select id="files">   
+            <option value="-1">Выбрать</option>
+        </select>
+    </div>
+    <div class="center">
+        <button class="center" onclick="getTable()">Start</button>
+    </div>
+    <div class="center">
+        <table id="analysis"></table>
+    </div>
+    <!-- <iframe width="100%" height="97%" src="/pentaho/content/saiku-ui/index.html?biplugin5=true&MODE=VIEW&dimension_prefetch=false#query/open/%3Ahome%3Aadmin%3Atest.saiku"></iframe> -->
+    <!-- <iframe width="100%" height="97%" src="/pentaho/plugin/saiku/api/admin/export/saiku/json?file=/home/admin/test.saiku"></iframe> -->
+    <script type="text/javascript">
+        getFiles();
+    </script>
+</body>
+</html>

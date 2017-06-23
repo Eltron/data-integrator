@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin title="data-integrator-plugin">
+	
+	<static-paths>
+		<static-path url="/data-integrator-plugin/data-integrator" localFolder="data-integrator"/>
+	</static-paths>
+
+	<perspective id="data-integrator-plugin.perspective" title="${title}" layout-priority="-1"
+               resourcebundle="content/data-integrator-plugin/data-integrator/lang/messages" content-url="content/data-integrator-plugin/data-integrator/main.html">
+	</perspective>
+
+</plugin>

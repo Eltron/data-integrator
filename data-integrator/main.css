@@ -1,0 +1,29 @@
+.center {
+    text-align: center;
+    font-size: 14pt;
+    padding: 0.1%;
+}
+
+select {
+    font-size: 14pt;
+    text-align-last: center;
+}
+
+table {
+    margin: auto;
+    border: 4px black; /* рамка вокруг таблицы */
+    border-collapse: collapse; /* отображать только одинарные линии */
+}
+
+th { 
+    text-align: left; /* выравнивание по левому краю */
+    background: #ccc; /* цвет фона ячеек */
+    padding: 5px; /* поля вокруг содержимого ячеек */
+    border: 1px solid black; /* граница вокруг ячеек */
+}
+
+td { 
+    text-align: center;
+    padding: 5px; /* поля вокруг содержимого ячеек */
+    border: 1px solid black; /* граница вокруг ячеек */
+}
