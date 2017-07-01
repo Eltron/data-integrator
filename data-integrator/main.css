@@ -13,19 +13,6 @@
     border: 0;
 }
 
-.fst {
-    border-bottom: 0;
-}
-
-.mid {
-    border-bottom: 0;
-    border-top: 0;
-}
-
-.last {
-    border-top: 0;
-}
-
 select {
     font-size: 14pt;
     text-align-last: center;
@@ -33,14 +20,14 @@ select {
 
 table {
     margin: auto;
-    border: 4px #A9A9A9; /* рамка вокруг таблицы */
-    border-collapse: collapse; /* отображать только одинарные линии */
+    border: 4px #A9A9A9;
+    border-collapse: collapse;
 }
 
 th, td { 
     text-align: center;
-    padding: 5px; /* поля вокруг содержимого ячеек */
-    border: 1px solid #A9A9A9; /* граница вокруг ячеек */
+    padding: 5px;
+    border: 1px solid #A9A9A9;
 }
 
 th {

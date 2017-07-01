@@ -10,16 +10,15 @@
         <select id='files'>   
             <option value='-1'>Select query file</option>
         </select>
-        <button class='center' id='exp' onclick='exportSelected()' style='display: none'>Export</button>
+        <button class='center' id='gen' onclick='generateURL()' style='display: none'>Generate URL</button>
+        <input type="text" class='center' id="url" size="15" value="Here will be URL" style='display: none'/>
         <button class='center' id='back' onclick='back()' style='display: none'>back</button>
     </div>
     <div class='center'>
         <button class='center' id='exec' onclick='getTable()'>Run query</button>
         <table id='data'></table>
     </div>
-    <!-- <iframe width='100%' height='97%' src='/pentaho/content/saiku-ui/index.html?biplugin5=true&MODE=VIEW&dimension_prefetch=false#query/open/%3Ahome%3Aadmin%3Atest.saiku'></iframe> -->
-    <!-- <iframe width='100%' height='97%' src='/pentaho/plugin/saiku/api/admin/export/saiku/json?file=/home/admin/test.saiku'></iframe> -->
-    <script type='text/javascript'>
+   <script type='text/javascript'>
         getFiles();
         setCellClick();
     </script>
